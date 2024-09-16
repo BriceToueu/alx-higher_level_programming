@@ -2,9 +2,7 @@
 def no_c(my_string):
     """Function that removes all characters c and C from a string."""
     length = len(my_string)
-
     l = 0
-
     new_string = my_string[:]
 
     for index in range(length):
