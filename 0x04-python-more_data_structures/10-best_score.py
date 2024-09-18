@@ -14,16 +14,7 @@ def best_score(a_dictionary):
         Key with biggest integer value otherwise
     """
 
-    if not isinstance(a_dictionary, dict) or len(a_dictionary) == 0:
-
+    if not isinstance(a_dictionary, dict) or not a_dictionary:
         return None
 
-    fin = list(a_dictionary.keys())[0]
-    grand = a_dictionary[fin]
-
-    for l, t in a_dictionary.items():
-        if t > grand:
-            grand = t
-            fin = l
-
-    return (fin)
+    return max(a_dictionary, key=a_dictionary.get, default=None)
