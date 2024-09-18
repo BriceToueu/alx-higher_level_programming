@@ -19,8 +19,10 @@ def best_score(a_dictionary):
 
     fin = list(a_dictionary.keys())[0]
     grand = a_dictionary[fin]
+
     for l, t in a_dictionary.items():
         if t > grand:
             grand = t
             fin = l
+
     return (fin)
