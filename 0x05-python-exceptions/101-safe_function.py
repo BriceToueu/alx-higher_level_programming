@@ -2,8 +2,7 @@
 # 101-safe_function.py
 # Brice Toueu
 
-# import sys
-
+import sys
 
 def safe_function(fct, *args):
     """Executes a function safely.
