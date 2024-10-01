@@ -8,10 +8,12 @@ def magic_calculation(a, b):
 
     Args:
         a (int): The first parameter, used in the calculation and comparison.
-        b (int): The second parameter, used in the calculation and as a fallback result.
+        b (int): The second parameter,
+        used in the calculation and as a fallback result.
 
     Returns:
-        float: The result of the calculation, which is either a ** b / i or b + a.
+        float: The result of the calculation,
+        which is either a ** b / i or b + a.
     """
     result = 0
     for i in range(1, 3):
