@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# File: 7-add_item.py
-# Auth: Brice Toueu
 
 """Add all arguments to a Python list and save them to a file."""
 import sys
